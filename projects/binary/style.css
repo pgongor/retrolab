@@ -1,0 +1,24 @@
+.terminal {
+  margin-top: 30px;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--gb-lightest);
+  font-family: inherit;
+  font-size: 14px;
+  width: 100%;
+}
+
+#output {
+  margin-top: 30px;
+  min-height: 40px;
+}
